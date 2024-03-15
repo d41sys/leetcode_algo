@@ -1,4 +1,4 @@
-```
+from typing import Optional
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,3 @@ class Solution:
             if num > 10000:
                 return True
         return False
-```

@@ -1,4 +1,4 @@
-```
+
 class Solution:
     def maxFrequencyElements(self, nums: List[int]) -> int:
         if len(nums) == 1:
@@ -33,4 +33,3 @@ class Solution:
                 sumfre+=maxfre
         
         return sumfre
-```

@@ -1,4 +1,3 @@
-```
 class Solution:
     def minimumLength(self, s: str) -> int:
         if len(s) == 1:
@@ -35,4 +34,3 @@ class Solution:
             
 
         return right - left + 1
-```

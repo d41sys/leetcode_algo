@@ -1,4 +1,3 @@
-```
 class Solution:
     def pivotInteger(self, n: int) -> int:
         if n == 1:
@@ -25,4 +24,3 @@ class Solution:
         if sum1 == sum2:
             return i
         return -1
-```

@@ -1,4 +1,3 @@
-```
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
         count = {0: 1}
@@ -12,4 +11,3 @@ class Solution:
             count[curr_sum] = count.get(curr_sum, 0) + 1
 
         return total_subarrays
-```

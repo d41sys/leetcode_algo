@@ -1,6 +1,3 @@
-
-
-```
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], power: int) -> int:
         if tokens == []:
@@ -25,4 +22,3 @@ class Solution:
                 score = score - 1
                 tokens.remove(tokens[len(tokens)-1])
         return score
-```
